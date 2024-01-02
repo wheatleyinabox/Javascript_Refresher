@@ -25,3 +25,5 @@ console.log(y, typeof y); // 3.14 string
 
 console.log(z, typeof z); // false 'boolean'
                           // true 'boolean'
+
+//**** === -> strict equality operator (compare if values & datatypr are equal)

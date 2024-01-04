@@ -50,4 +50,10 @@ console.log(highCalFruits);
 const maxFruit = fruits.reduce( (max, fruit) => 
                                 (fruit.calories > max.calories ? 
                                 fruit : max));
+
+const minFruit = fruits.reduce( (max, fruit) => 
+                                (fruit.calories < max.calories ? 
+                                fruit : max));
+
 console.log(maxFruit);
+console.log(minFruit);

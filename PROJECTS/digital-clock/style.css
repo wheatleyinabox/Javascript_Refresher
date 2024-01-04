@@ -1,0 +1,29 @@
+body
+{
+    background-image: url(background.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    margin: 0;
+}
+
+#clock-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock
+{
+    color: hsl(0, 0%, 0%);
+    font-family: monospace;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    background-color: hsla(0, 0%, 100%, 0.107);
+    width: 100%;
+}
